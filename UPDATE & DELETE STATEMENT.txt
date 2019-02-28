@@ -1,0 +1,13 @@
+UPDATE STATEMENT
+
+1. UPDATE `employees` SET`lname`= 'williams' WHERE `fname` = 'jonie';
+2. UPDATE `employees` SET `age` = 46 WHERE `emp_id` = 4;
+3. UPDATE `employees` SET `title` = 'Administrative_Assistant' WHERE `title` = 'secretary';
+4. UPDATE `employees` SET `salary` = salary+3500 WHERE `salary` <= 30000;
+5. UPDATE `employees` SET `salary` = salary+3500 WHERE `salary` <= 33500;
+6. UPDATE `employees` SET `title` = 'programmer II' WHERE `title` = 'programmer III';
+7. UPDATE `employees` SET `title` = 'programmer' WHERE `title` = 'programmer II';
+
+DELETE STATEMENT
+1. DELETE FROM `employees` WHERE `fname` = 'jonie';
+2. DELETE FROM `employees` WHERE `salary` >= 70000;
